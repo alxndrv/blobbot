@@ -1,0 +1,20 @@
+{
+  "include": ["src/**/*", "./*.ts"],
+  "exclude": ["node_modules", "serve", "tmp", "src/index.js"],
+  "compilerOptions": {
+    "removeComments": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "./js_out",
+    "target": "ES6",
+    "lib": [
+      "es2019",
+      "DOM",
+      "ES6",
+      "DOM.Iterable",
+      "ScriptHost"
+    ]
+  }
+}
